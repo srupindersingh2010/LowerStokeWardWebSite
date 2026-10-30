@@ -142,3 +142,34 @@
   }
 
 }
+/* Labour rose in main header */
+
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 650px) {
+
+  .brand-logo {
+    width: 38px;
+    height: 38px;
+  }
+
+  .brand {
+    gap: 8px;
+  }
+
+  .brand span {
+    font-size: 15px;
+  }
+
+}
